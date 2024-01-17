@@ -1,0 +1,55 @@
+ul#css3menu0{
+	margin:0 0%;list-style:none;padding:0 0%;background-color:#ce6433;border-width:1px;border-style:solid;border-color:#d05781;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;font-size:0;width:100%;z-index:999;position:relative;display:inline-block;zoom:1;
+	*display:inline;*padding-right:0.77%;}
+ul#css3menu0 li{
+	display:block;white-space:nowrap;font-size:0;float:left;}
+* html ul#css3menu0 li a{
+	display:inline-block;}
+ul#css3menu0>li{
+	margin:0;width:16%;}
+ul#css3menu0 li.toplast{
+	width:20%;}
+body:first-of-type ul#css3menu0{
+	display:inline-table;border-spacing:0px 0;}
+body:first-of-type ul#css3menu0>li{
+	display:table-cell;float:none;}
+ul#css3menu0 a:active, ul#css3menu0 a:focus{
+	outline-style:none;}
+ul#css3menu0 a{
+	display:block;vertical-align:middle;text-align:left;text-decoration:none;font:bold 14px Trebuchet MS;color:#000000;text-shadow:#FFF 0 0 1px;cursor:pointer;padding:10px;background-color:#e0527a;background-image:url("mainbk.png");background-repeat:repeat;background-position:0 0;border-width:0 0 0 1px;border-style:solid;border-color:#C0C0C0;}
+ul#css3menu0 li:hover>a,ul#css3menu0 li a.pressed{
+	background-color:#f8a632;border-color:#C0C0C0;border-style:solid;color:#000000;text-shadow:#FFF 0 0 1px;background-image:url("mainbk.png");background-position:0 100px;text-decoration:none;}
+ul#css3menu0 img{
+	border:none;vertical-align:middle;margin-right:10px;}
+ul#css3menu0 > label.switch{
+	display:none;cursor:pointer;width:25px;height:20px;padding:10px;}
+ul#css3menu0 > label.switch:before{
+	content:"";position:absolute;display:block;height:4px;width:25px;border-radius:4px;background:#000000;-moz-box-shadow:0 8px #000000, 0 16px #000000;-webkit-box-shadow:0 8px #000000, 0 16px #000000;box-shadow:0 8px #000000, 0 16px #000000;}
+ul#css3menu0 > label.switch:hover:before{
+	background:#000000;-moz-box-shadow:0 8px #000000, 0 16px #000000;-webkit-box-shadow:0 8px #000000, 0 16px #000000;box-shadow:0 8px #000000, 0 16px #000000;}
+ul#css3menu0 > .switchbox{
+	display:none;}
+ul#css3menu0 li.topfirst>a{
+	border-radius:5px 0 0 5px;-moz-border-radius:5px 0 0 5px;-webkit-border-radius:5px;-webkit-border-top-right-radius:0;-webkit-border-bottom-right-radius:0;}
+ul#css3menu0 li.toplast>a{
+	border-radius:0 5px 5px 0;-moz-border-radius:0 5px 5px 0;-webkit-border-radius:0;-webkit-border-top-right-radius:5px;-webkit-border-bottom-right-radius:5px;}
+ul#css3menu0>li:nth-of-type(1){width:9%}ul#css3menu0>li:nth-of-type(2){width:20%}ul#css3menu0>li:nth-of-type(3){width:20%}ul#css3menu0>li:nth-of-type(4){width:20%}ul#css3menu0>li:nth-of-type(5){width:20%}ul#css3menu0>li:nth-of-type(6){width:11%}
+@-moz-document url-prefix(){body:first-of-type ul#css3menu0{display:inline-block} body:first-of-type ul#css3menu0>li{display:block;float:left !important;}}
+@media only screen and (max-width:775px),only screen and (max-device-width:775px){
+ul#css3menu0>li:nth-of-type(1){width:13%}ul#css3menu0>li:nth-of-type(2){width:29%}ul#css3menu0>li:nth-of-type(3){width:29%}ul#css3menu0>li:nth-of-type(4){width:29%}ul#css3menu0>li:nth-of-type(5){width:63%}ul#css3menu0>li:nth-of-type(6){width:37%}body:first-of-type ul#css3menu0{display:inline-block} body:first-of-type ul#css3menu0>li{display:block;float:left !important;}}
+@media screen and (max-width: 768px) {
+	ul#css3menu0 > li {
+		position: initial;}
+	ul#css3menu0 ul .submenu,ul#css3menu0 li > ul {
+		left: 0; right:auto; top: 100%;}
+	ul#css3menu0 .submenu,ul#css3menu0 ul,ul#css3menu0 .column {
+		-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;padding-right: 0;width: 100% !important;}
+}
+@media screen and (max-width: 535px) {
+	ul#css3menu0 {
+		width: 100%;}
+	ul#css3menu0 > li {
+		display: none !important;		position: relative;		width: 100% !important;}
+	ul#css3menu0 > label.switch,ul#css3menu0 .switchbox:checked ~ li {
+		display: block !important;}
+}

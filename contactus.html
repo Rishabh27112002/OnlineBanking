@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #71b7e6, #9b59b6);
+                 font-family: 'Arial';
+ } h1 {
+        text-align: center;
+        color: black;
+        background: radial-gradient(rgb(230, 243, 41), rgb(238, 46, 46));
+        padding: 20px;
+        font-family: lucida calligraphy;
+    
+}
+    </style>
+</head>
+<body>
+    <h1>All in One Bank</h1>
+        <h2>Contact Us</h2>
+    <form action="#" id="ContactUs100" method="post">
+        <script type="text/javascript">
+        function ValidateForm(frm) {
+        if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+        if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+        if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+        if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+        return true; }
+        </script>
+        <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+        <tr> <td>
+        <label for="Name">Name*:</label>
+        </td> <td>
+        <input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
+        </td> </tr> <tr> <td>
+        <label for="PhoneNumber">Phone number:</label>
+        </td> <td>
+        <input name="PhoneNumber" type="text" maxlength="43" style="width:100%;max-width:250px;" />
+        </td> </tr> <tr> <td>
+        <label for="FromEmailAddress">Email address*:</label>
+        </td> <td>
+        <input name="FromEmailAddress" type="text" maxlength="90" style="width:100%;max-width:250px;" />
+        </td> </tr> <tr> <td>
+        <label for="Comments">Comments*:</label>
+        </td> <td>
+        <textarea name="Comments" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+        </td> </tr> <tr> <td>
+
+        <input name="skip_Submit" type="submit" value="Submit" />
+        </table>
+        </form>
+</body>
+</html>

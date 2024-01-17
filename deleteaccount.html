@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account</title>
+    <style type="text/css">
+         body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #71b7e6, #9b59b6);
+            font-family: 'Arial';
+         }
+         h1 {
+        text-align: center;
+        color: black;
+        background: radial-gradient(rgb(230, 243, 41), rgb(238, 46, 46));
+        padding: 20px;
+        font-family: lucida calligraphy;
+        }
+
+        .login {
+
+            width: 350px;
+            overflow: hidden;
+            margin: auto;
+            margin: 20 0 0 450px;
+            padding: 40px;
+            background: #23463f;
+            border-radius: 15px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #277582;
+
+        }
+
+        label {
+            color: #08ffd1;
+            font-size: 17px;
+        }
+
+        #Uname {
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 17px;
+            padding-left: 8px;
+        }
+
+        #pass {
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 17px;
+            padding-left: 8px;
+
+        }
+
+        #log {
+            width: 100px;
+            height: 30px;
+            border: none;
+            border-radius: 17px;
+            color: blue;
+
+
+        }
+
+        span {
+            color: white;
+            font-size: 17px;
+        }
+
+        a {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>All in One Bank</h1>
+    <h2>Delete Account </h2><br>
+    <div class="login">
+        <form id="login" name="frm" method="get" action="deleteaccount.php" target="self" onsubmit="returncheck();">
+            <label><b>Account no
+                </b>
+            </label>
+            <input type="text" name="t1" id="Uname" placeholder="Account no">
+            <br><br>
+            <label><b>Mobile no
+                </b>
+            </label>
+            <input type="text" name="t2" id="pass" placeholder="Mobile no">
+            <br><br>
+            <input type="submit" name="log" id="log" value="Delete">
+</body>
+
+</html>

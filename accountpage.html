@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accountpage</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<head>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      height: 120vh;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      background: linear-gradient(135deg, #71b7e6, #9b59b6);
+
+    }
+
+    table {
+      font-size: 18px;
+    }
+
+    h1 {
+			text-align: center;
+			color: black;
+			background: radial-gradient(rgb(230, 243, 41), rgb(238, 46, 46));
+			padding: 20px;
+			font-family: lucida calligraphy;
+    }
+    h2 {
+      text-align: center;
+      background: radial-gradient(white, blue, orange);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>All in One Bank</h1>
+  <h2>Create Account</h2>
+  <table>
+    <form name="frm" method="POST" action="accountpage.php" enctype="multipart/form-data" target="self">
+      <tr>
+        <td> First Name</td>
+        <td><input type="text" name="t1" size=""></td>
+        <td> Last Name</td>
+        <td><input type="text" name="t2" size=""></td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td><input type="radio" name="t3" value="male">Male
+          <input type="radio" name="t3" value="female">Female
+        </td>
+        <td>Date of Birth</td>
+        <td><input type="date" name="t4"></td>
+      </tr>
+      <tr>
+        <td>Father's Name</td>
+        <td><input type="text" name="t5" size="30"></td>
+        <td>Mother's Name</td>
+        <td><input type="text" name="t6" size="30"></td>
+      </tr>
+      <tr>
+        <td>Nationality</td>
+        <td><input type="radio" name="t7" value="Indian">Indian
+          <input type="radio" name="t7" value="Others">Others
+        </td>
+        <td>Martial Status</td>
+        <td><input type="radio" name="t8" value="Married">Married
+          <input type="radio" name="t8" value="Unmarried">Unmarried
+        </td>
+      </tr>
+      <tr>
+        <td>Aadhar No</td>
+        <td><input type="text" name="t9" size="30"></td>
+        <td>Pan No</td>
+        <td><input type="text" name="t10" size="30"></td>
+      </tr>
+      <tr>
+        <td>Mobile No</td>
+        <td><input type="text" name="t11" size="30"></td>
+        <td>Email id</td>
+        <td><input type="text" name="t12" size="30"></td>
+      </tr>
+      <tr>
+        <td>Permanent Address</td>
+        <td><textarea name="t13" rows=3 cols=20></textarea></td>
+        <td>Residetial Address</td>
+        <td><textarea name="t14" rows=3 cols=20></textarea></td>
+      </tr>
+      <tr>
+        <td>City</td>
+        <td><input type="text" name="t15" size="30"></td>
+        <td>State</td>
+        <td><input type="text" name="t16" size="30"></td>
+      </tr>
+      <tr>
+        <td>Country</td>
+        <td><select name="t17">
+            <option>Select option</option>
+            <option>Srilanka</option>
+            <option>Nepal</option>
+            <option>Bangladesh</option>
+            <option>India</option>
+            <option>Japan</option>
+            <option>Australia</option>
+            <option>Malashiya</option>
+            <option>Singapore</option>
+            <option>Newzealand</option>
+            <option>Canada</option>
+            <option>Bangladesh</option>
+            <option>Bhutan</option>
+          </select></td>
+        <td>Pin</td>
+        <td><input type="text" name="t18" size="30"></td>
+      </tr>
+      <tr>
+        <td>Religion</td>
+        <td><input type="radio" name="t19" value="hindu">Hindu
+          <input type="radio" name="t19" value="muslim">Muslim
+          <input type="radio" name="t19" value="christian">Christian
+          <input type="radio" name="t19" value="sikh">Sikh
+          <input type="radio" name="t19" value="others">Others
+        </td>
+        <td>Category</td>
+        <td>
+          <input type="radio" name="t20" value="general">General
+          <input type="radio" name="t20" value="obc">OBC
+          <input type="radio" name="t20" value="SC">SC
+          <input type="radio" name="t20" value="St">ST
+          <input type="radio" name="t20" value="others">others
+        </td>
+      </tr>
+      <tr>
+        <td>Education Qualification</td>
+        <td><input type="checkbox" name="t21" value="matriculation">Matriculation
+          <input type="checkbox" name="t21" value="Intermediate">Intermediate
+          <input type="checkbox" name="t21" value="Graduate">Graduate/Diploma
+          <input type="checkbox" name="t21" value="Post Graduate">Post Graduate
+          <input type="checkbox" name="t21" value="Doctarate">Doctarate
+        </td>
+        <td>Occupation type</td>
+        <td><select name="t22">
+            <option>Select option</option>
+            <option>Private sector</option>
+            <option>Public sector</option>
+            <option>Government sector</option>
+            <option>Self Employed</option>
+            <option>Retired</option>
+            <option>Student</option>
+            <option>Others</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td>Nominee name</td>
+        <td><input type="text" name="t23" size="30"></td>
+        <td>Relation with nominee</td>
+        <td><input type="radio" name="t24" value="Father">Father
+          <input type="radio" name="t24" value="mother">Mother
+          <input type="radio" name="t24" value="husband">Husband
+          <input type="radio" name="t24" value="wife">Wife
+          <input type="radio" name="t24" value="son">son<br>
+          <input type="radio" name="t24" value="daughter">daughter
+        </td>
+      </tr>
+      <tr>
+        <td>Account type</td>
+        <td><input type="radio" name="t25" value="Savings">Savings
+          <input type="radio" name="t25" value="Current">Current
+          <input type="radio" name="t25" value="Demat">Demat
+        </td>
+      </tr>
+      <tr>
+        <td>Account no</td>
+        <td><input type="text" name="t26" size="30"></td>
+      </tr>
+      <tr>
+        <td>Upload Photo</td>
+        <td><input type="file" name="nm1"></td>
+      </tr>
+      <tr>
+        <td>Upload Signature</td>
+        <td><input type="file" name="nm2"></td>
+      </tr>
+      <tr>
+        <td>Balance</td>
+        <td><input type="number" name="nm3"></td>
+      </tr>
+      <tr>
+        <td><input type="submit" value="Submit"></td>
+      </tr>
+  </table>
+  </form>
+</body>
+
+</html>
